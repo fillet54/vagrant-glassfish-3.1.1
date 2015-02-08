@@ -51,3 +51,5 @@ sudo cp /vagrant/glassfish.init.d /etc/init.d/glassfish
 sudo chmod a+x /etc/init.d/glassfish
 sudo update-rc.d glassfish defaults
 
+# Start glassfish after provisioning
+sudo service glassfish start
